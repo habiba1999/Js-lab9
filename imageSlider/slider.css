@@ -1,0 +1,76 @@
+.cards{
+    width: 100vw;
+    height: 100vh;
+}
+
+.numb {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+}
+#one{
+    background-color: rgb(193, 17, 128);
+    width: 400px;
+    height: 400px;
+    color: azure;
+    font-size: xx-large;
+    text-align:center ;
+    line-height: 370px;
+    position: relative;
+    left: 500px;
+    top: 110px;
+    z-index: 1;
+}
+#two{
+    background-color:rgb(219, 62, 162);
+    width: 330px;
+    height: 330px;
+    color: azure;
+    font-size: xx-large;
+    text-align:center ;
+    line-height: 320px;
+    position: relative;
+    left: 380px;
+    top: 145px;
+    z-index: 0;
+}
+#three{
+    background-color: rgb(219, 62, 162);
+    width: 330px;
+    height: 330px;
+    color: azure;
+    font-size: xx-large;
+    text-align:center ;
+    line-height: 320px;
+    position:relative;
+    right: 430px;
+    top: 145px;
+    z-index: 0;
+}
+#next{
+    position: fixed;
+    left: 1062px;
+    top:290px;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    color: azure;
+    background-color: rgb(195, 31, 94);
+    border-style: none;
+}
+#prev{
+    position: fixed;
+    left: 310px;
+    top:290px;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    color: rgb(224, 242, 242);
+    background-color:  rgb(195, 31, 94);
+    border-style: none;
+}
+#next:hover,#prev:hover{
+    background-color:  rgb(231, 117, 161);
+    border-radius: 250px;
+}
